@@ -14,4 +14,5 @@ Azure Machine Learning service を使った Deep Learning のワークショッ�
 | CNN | [Azure ML service Python SDK](Sample/Keras/Keras-catdog-dataset-remote.ipynb)| Cat & Dog 画像認識 | TensorFlow Esimator による学習。Datastore から 1つの Dataset を作成しダウンロード。| 
 | CNN | [Azure ML service Python SDK](Sample/Keras/Keras-catdog-each-dataset-remote.ipynb)| Cat & Dog 画像認識| TensorFlow Esimator による学習。各ラベル毎に学習用・検証用それぞれに対して Dataset を作成しダウンロード。| 
 | CNN | [Azure ML service Python SDK](Sample/Keras/Keras-catdog-dataset-Hyperdrive.ipynb)| Cat & Dog 画像認識| **Hyperdrive によるハイパーパラメータチューニング**を実行。Datastore から 1つの Dataset を作成しダウンロード。| 
+| LSTM | [Azure ML service Python SDK](Sample/Keras/Keras-LSTM-PredictiveMaintenance-datastore-Hyperdrive.ipynb)| 設備保全| **Hyperdrive によるハイパーパラメータチューニング**を実行。Datastore を直接マウント。| 
 
